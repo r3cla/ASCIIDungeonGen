@@ -1,8 +1,37 @@
-# React + Vite
+# ASCII DungeonGen
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based tool for procedurally generating and designing dungeon rooms for roguelike games.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Interactive room generation with customizable parameters
+- Save and export room layouts
+- Balanced feature distribution algorithms
+- Mobile-responsive design
+- No backend required - runs entirely in the browser
+
+## Development
+
+This project uses:
+- React for the UI
+- Tailwind CSS for styling
+- Lucide React for icons
+- shadcn/ui for UI components
+
+### Setup
+
+1. Clone the repository
+```bash
+git clone https://github.com/r3cla/ASCIIDungeonGen
+cd ASCIIDungeonGen
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Start the development server
+```bash
+npm run dev
+```
