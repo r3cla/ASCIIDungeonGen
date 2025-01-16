@@ -1,4 +1,4 @@
-# Dungeon Room Designer
+# ASCII DungeonGen
 
 A web-based tool for procedurally generating and designing dungeon rooms for roguelike games.
 
@@ -23,7 +23,7 @@ This project uses:
 1. Clone the repository
 ```bash
 git clone https://github.com/r3cla/ASCIIDungeonGen
-cd dungeon-room-designer
+cd ASCIIDungeonGen
 ```
 
 2. Install dependencies
